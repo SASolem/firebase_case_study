@@ -1,0 +1,90 @@
+body, h1, h2, h3, p, ul, ol, li, blockquote, table {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url('https://i.ibb.co/84f6Mbq/pexels-felix-mittermeier-956999.jpg');
+    background-size: cover; 
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+h1.logo {
+    font-size: 2rem;
+}
+
+/* ================================== Table of Content ==================================== */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    text-align: left;
+}
+
+ol {
+    list-style: none;
+    padding: 0;
+}
+
+ol li {
+    margin-bottom: 10px;
+}
+
+ol li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Responsive Styles for Smaller Devices */
+@media (max-width: 767px) {
+    .container {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    ol li {
+        margin-bottom: 8px;
+    }
+}
+
+/* =============================== Introduction ===================================== */
+#introduction {
+    margin-top: 2rem;
+}
+
+.intro-content {
+    text-align: center;
+}
+
+.firebase-image {
+    display: block;
+    margin: 2rem auto;
+}
+
+
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
